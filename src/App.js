@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Demo from './Demo';
-import Sample from './Sample/Sample';
+import InputComp from './InputComp/Sample';
+import ButtonComp from './ButtonComp/ButtonComp';
+
 
 
 function App() {
   return (
     <div className="App">
       <p>Learn React</p>
-      <Sample />
+      <ButtonComp />
+      <InputComp />
       <Demo />
+    
     </div>
   );
 }
